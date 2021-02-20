@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
         final TextView flashcardQuestion = findViewById(R.id.flashcardQuestion);
         final TextView flashcardAnswer = findViewById(R.id.flashcardAnswer);
 
+        final TextView flashcardAnswer1 = findViewById(R.id.flashcardAnswer1);
+        final TextView flashcardAnswer2 = findViewById(R.id.flashcardAnswer2);
+        final TextView flashcardAnswer3 = findViewById(R.id.flashcardAnswer3);
+
         flashcardQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,5 +37,32 @@ public class MainActivity extends AppCompatActivity {
                 flashcardQuestion.setVisibility(View.VISIBLE);
             }
         }));
+
+        flashcardAnswer1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.setBackgroundColor(getResources().getColor(R.color.incorrectAnswer));
+                flashcardAnswer2.setBackgroundColor(getResources().getColor(R.color.correctAnswer));
+                flashcardAnswer3.setBackgroundColor(getResources().getColor(R.color.incorrectAnswer));
+            }
+        });
+
+        flashcardAnswer2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.setBackgroundColor(getResources().getColor(R.color.correctAnswer));
+                flashcardAnswer1.setBackgroundColor(getResources().getColor(R.color.incorrectAnswer));
+                flashcardAnswer3.setBackgroundColor(getResources().getColor(R.color.incorrectAnswer));
+            }
+        });
+
+        flashcardAnswer3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.setBackgroundColor(getResources().getColor(R.color.incorrectAnswer));
+                flashcardAnswer1.setBackgroundColor(getResources().getColor(R.color.incorrectAnswer));
+                flashcardAnswer2.setBackgroundColor(getResources().getColor(R.color.correctAnswer));
+            }
+        });
     }
 }

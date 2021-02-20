@@ -10,7 +10,13 @@
         android:id="@+id/flashcardQuestion"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:padding="30dp"
         android:text="What is the best Pokemon?"
+        android:background="@drawable/answer_backround"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="10dp"
         android:textSize="40sp"
         android:textAlignment="center" />
 
@@ -18,9 +24,60 @@
         android:id="@+id/flashcardAnswer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:padding="30dp"
         android:visibility="invisible"
         android:text="Snom"
+        android:background="@drawable/question_background"
+        android:elevation="10dp"
         android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:textAlignment="center" />
+
+
+    
+    <TextView
+        android:id="@+id/flashcardAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Pikachu"
+        android:background="@color/answerOutline"
+        android:textSize="30sp"
+        android:elevation="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/flashcardAnswer2"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/flashcardAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Snom"
+        android:background="@color/answerOutline"
+        android:textSize="30sp"
+        android:elevation="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/flashcardAnswer3"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/flashcardAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Wooloo"
+        android:background="@color/answerOutline"
+        android:textSize="30sp"
+        android:elevation="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"/>
 
 </RelativeLayout>
