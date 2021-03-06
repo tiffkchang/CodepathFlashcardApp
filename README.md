@@ -31,7 +31,7 @@ This app allows the user to create a new flashcard, input a question and an answ
 
 ### App Walk-though
 
-<img src="https://github.com/tiffkchang/CodepathFlashcardApp/blob/main/Demo%20Gifs/CodepathFlashcardAppLab2Gif2.gif" width=200><br>
+<img src="https://github.com/tiffkchang/CodepathFlashcardApp/blob/main/Demo%20Gifs/CodepathFlashcardAppLab2Gif3.gif" width=200><br>
 
 ## Required
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
