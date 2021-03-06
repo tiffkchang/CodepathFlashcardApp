@@ -11,8 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:padding="30dp"
-        android:text="What is the best Pokemon?"
-        android:background="@drawable/answer_backround"
+        android:text="Question"
+        android:background="@drawable/answer_background"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -26,7 +26,7 @@
         android:layout_height="200dp"
         android:padding="30dp"
         android:visibility="invisible"
-        android:text="Snom"
+        android:text="Answer"
         android:background="@drawable/question_background"
         android:elevation="10dp"
         android:textSize="40sp"
@@ -41,7 +41,7 @@
         android:id="@+id/flashcardAnswer1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Pikachu"
+        android:text="Option 1"
         android:background="@color/answerOutline"
         android:textSize="30sp"
         android:elevation="10dp"
@@ -55,7 +55,7 @@
         android:id="@+id/flashcardAnswer2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Snom"
+        android:text="Option 2"
         android:background="@color/answerOutline"
         android:textSize="30sp"
         android:elevation="10dp"
@@ -69,15 +69,37 @@
         android:id="@+id/flashcardAnswer3"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Wooloo"
+        android:text="Option 3"
         android:background="@color/answerOutline"
         android:textSize="30sp"
         android:elevation="10dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="120dp"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/plus_icon"
+        android:src="@drawable/plus_icon_foreground"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/edit_icon"
+        android:src="@drawable/edit_icon_foreground"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+
 
 </RelativeLayout>
