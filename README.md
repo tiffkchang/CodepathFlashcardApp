@@ -3,7 +3,7 @@
 ## Lab 3
 
 ### App Description
-This app allows the user to add and edit multiple flashcard as well as cycle through them. Persistent storage has also been added; when the user exits and reopens the app, their previous flashcards will still be there. Pressing the shuffle button will randomize the order of the flashcards.
+This app allows the user to add and edit multiple flashcard as well as cycle through them. Persistent storage has also been added; when the user exits and reopens the app, their previous flashcards will still be there. Users can delete a flashcard by tapping on the delete icon at the bottom of the screen. Pressing the shuffle button will randomize the order of the flashcards.
 
 ### App Walk-though
 
