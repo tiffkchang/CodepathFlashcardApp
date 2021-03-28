@@ -7,7 +7,7 @@ This update allows the user to see animations when adding a new card, flipping a
 
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/tiffkchang/CodepathFlashcardApp/blob/main/Demo%20Gifs/CodepathFlashcardAppLab4Gif1.gif" width=200><br>
 
 ## Required
 - [x] User sees a transition animation when going from the main screen to the add card screen.
