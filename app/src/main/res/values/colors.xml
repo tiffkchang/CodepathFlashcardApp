@@ -9,4 +9,5 @@
     <color name="answerOutline">#F1E4B8</color>
     <color name="correctAnswer">#A2FFA2</color>
     <color name="incorrectAnswer">#FFA2A2</color>
+    <color name="darkerBlue">#7DB7EA</color>
 </resources>

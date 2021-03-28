@@ -1,5 +1,25 @@
 ## CodepathFlashcardApp
 
+## Lab 4
+
+### App Description
+This update allows the user to see animations when adding a new card, flipping a card over to view the answer, and transitioning between cards. There is now a countdown timer that starts when viewing each flashcard question. Confetti will now appear when the user selects the correct multiple choice answer. The app now has an icon as well.
+
+### App Walk-though
+
+<img src="YOUR_GIF_URL_HERE" width=200><br>
+
+## Required
+- [x] User sees a transition animation when going from the main screen to the add card screen.
+- [x] User sees a reveal animation when the flashcard is tapped and the answer is shown
+- [x] User sees flashcards animating in / out when the 'next' button is tapped
+
+## Optional
+- [x] Extra styling is added!
+- [x] User sees a countdown timer for each question
+- [x] User sees a 'card flip' animation when the card is tapped
+- [x] User sees a celebration animation with confetti when they answer a question correctly
+
 ## Lab 3
 
 ### App Description
